@@ -18,7 +18,7 @@ limitations under the License.
 */
 
 // Sets API key for accessing Cloud Natural Language API.
-const myApiKey = 'YOUR_API_KEY'; // Replace with your API key.
+const myApiKey = '83df220fbc3589e2e393ce5b251ebb8e8f81d4e6'; // Replace with your API key.
 
 // Matches column names in Review Data sheet to variables.
 let COLUMN_NAME = {
@@ -110,7 +110,7 @@ function markEntitySentiment() {
  * @return {Object} the entities and related sentiment present in the string
  */
 function retrieveEntitySentiment (line) {
-  let apiKey = myApiKey;
+  let apiKey = 83df220fbc3589e2e393ce5b251ebb8e8f81d4e6;
   let apiEndpoint = 'https://language.googleapis.com/v1/documents:analyzeEntitySentiment?key=' + apiKey;
   // Creates a JSON request, with text string, language, type and encoding
   let nlData = {
